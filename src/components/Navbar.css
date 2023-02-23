@@ -1,0 +1,87 @@
+nav.navbar{
+    padding: 0;
+    height: 76px;
+    width: 100%;
+}
+
+div.container-fluid{
+    padding: 0;
+}
+
+a.navbar-brand{
+    color: #f0f350;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px;
+    justify-self: start;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 16rem;
+    align-items: center;
+    display: flex;
+    list-style: none;
+
+}
+a.navbar-brand:hover{
+    color:#80911f;
+}
+
+div#navbarScroll.navbarcollapse{
+    display: flex;
+}
+a.nav-link{
+    justify-self: flex-end;
+    font-size: 18px;
+    margin-left: 2rem;
+    font-weight: 500;
+    height: 76px;
+    right: 500px;
+    margin-top:15px;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+a.nav-link:hover{
+    color: #34bef5;
+    transition: 0.2s all ease-in-out;
+}
+
+button.btn.btn-success{
+    padding: 25px 30px;
+    margin-left: 35px;
+    justify-content: space-between;
+    width: 14rem;
+    font-size: 20px;  
+}
+
+.arrow svg{
+    font-size: 20px;
+}
+
+
+div.dropdown-menu.show{
+    top: 75px;
+}
+
+.navbar .dropdown-toggle[aria-expanded=true]::after {
+    transform: rotate(-180deg);
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-toggler{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: box-shadow 0.15s ease-in-out;
+}
+

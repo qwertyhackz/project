@@ -1,0 +1,107 @@
+.container{
+    margin: 20px;
+}
+
+h2{
+    font: bold;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.rounded{
+    width: 80px;
+    height: 80px;
+    border: 2px solid lightgray;
+}
+
+.text-truncate svg,.btn.btn-light svg{
+    font-size: 20px;
+}
+
+.row{
+    gap: 0 !important;
+}
+
+.col-sm-12 .col-md-8{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.ps-4{
+    padding-left: 1.5rem !important;
+}
+
+.col-sm-12.col-md-4{
+   text-align: end !important;  
+}
+
+.text-truncate{
+    margin: 20px;
+    margin-right: 1rem !important;
+    justify-content: space-between;
+    width: 30rem;  
+}
+
+.ps-4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(50, 49, 49);
+}
+.nav-pills{
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+    text-align: start;
+    margin-right: 3rem;     
+}
+
+.tab{
+    color: #000; 
+}
+
+.tab:hover{
+    color: #00B074;
+    transition: .3s all ease-in-out; 
+}
+
+.active {
+    list-style: none;
+    text-decoration: none;  
+}
+.active:hover{
+    border-bottom: 2px solid #00B074;
+}
+
+.job-item {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.job-item:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+
+.btn.btn-info{
+    background-color: #00B074;
+    
+    
+}
+
+.btn.btn-info:hover{
+    background-color: #00B074;
+    border: 2px solid grey;
+    font-weight: 500;
+    color: #fff;
+    
+}
+

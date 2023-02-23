@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+
+}
+.display{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.mb-4{
+     font-weight: 600;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.btn.btn-primary{
+    background-color: #00B074;
+    border-color: #00B074;
+    color: #fff;
+    font-size: 15px;   
+}

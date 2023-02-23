@@ -1,0 +1,45 @@
+.card {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+
+.card:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+svg{
+    font-size: 60px;
+    color: #00B074;
+}
+
+.mb-4{
+    padding-top: 20px;
+}
+
+.card-text{
+    color: #00B074;
+    text-align: start;
+    font-weight: 400;
+}
+.card-text:hover{
+    color: #00B074;
+    text-align: start;
+    font-weight: 400;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 15px;   
+}

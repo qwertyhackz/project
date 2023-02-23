@@ -1,0 +1,68 @@
+#register, #login {
+    width: 100%;
+    height: 120vh;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    margin: 3px auto;
+    background-image: url("/public/caro1.jpg");
+  }
+
+  .tittle{
+    text-align: center;
+    color: #026846;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px;
+    text-shadow: 5px 2px 5px white;
+  }
+  
+  form label, form input {
+    display: block;
+    margin-bottom: 12px;
+    width: 90%;
+    margin-left: 40px;
+    color: #029b68;
+    font-size: 25px;
+    border-radius: 20px;
+  }
+
+  form label{
+    text-shadow: 3px 1px 3px rgb(40, 53, 40);
+  }
+  
+  form input {
+    color: #2B3940;
+    padding: 10px;
+    border: solid 1px #525151;
+  }
+  
+  .button {
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #00BFFF;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 20px 40px;
+    color: #ffffff;
+    text-shadow: 3px 1px 3px rgb(40, 53, 40);
+  }
+  
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 13px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+  }
